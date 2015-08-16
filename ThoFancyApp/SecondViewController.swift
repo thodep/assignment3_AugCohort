@@ -17,9 +17,9 @@ class SecondViewController: UIViewController {
      UIImage(named: "2.jpg")!,
      UIImage(named: "3.jpg")!,
      UIImage(named: "4.jpg")!,
-     UIImage(named: "5")!,
+     UIImage(named: "5.jpg")!,
      UIImage(named: "6.jpg")!,
-     UIImage(named: "Girl20")!]
+     UIImage(named: "7.jpg")!]
     
     var index = 0
     let animationDuration: NSTimeInterval = 0.25
