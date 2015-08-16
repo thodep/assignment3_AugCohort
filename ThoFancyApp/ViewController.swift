@@ -13,28 +13,36 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("hi from viewDidLoad")
+        print("hi from view Did Load")
         
     }
     override func viewWillAppear(animated: Bool) {
-        print("hi from viewWillAppear")
+        super.viewWillAppear(animated)
+        print("hi from view Will Appear")
     }
     override func viewDidAppear(animated: Bool) {
-        print("hi from ViewDidAppear")
+        super.viewDidAppear(animated)
+        print("hi from View Did Appear")
     }
     override func viewWillLayoutSubviews() {
-        print("hi from viewWillLayoutSubViews")
+        super.viewWillLayoutSubviews()
+        print("hi from view Will Layout SubViews")
     }
     override func viewDidLayoutSubviews() {
-        print("hi from viewDidLayOutSubviews")
+        super.viewDidLayoutSubviews()
+        print("hi from view Did LayOut Subviews")
 
     }
     override func viewWillDisappear(animated: Bool) {
-        print("hi from viewWillDisappear")
+        super.viewWillDisappear(animated)
+        print("hi from view Will Disappear")
     }
     override func viewDidDisappear(animated: Bool) {
-        print("hi from viewDidDisappear")
+        super.viewDidDisappear(animated)
+        print("hi from view Did Disappear")
+        
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
