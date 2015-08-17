@@ -68,25 +68,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I will be an awesome IOS Dev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9N5-Q6-gpW">
-                                <rect key="frame" x="159" y="40" width="283" height="20"/>
+                                <rect key="frame" x="159.5" y="40" width="282.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282.5" id="94S-3I-wbE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Medium" family="Heiti TC" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bUX-L0-Hz9">
-                                <rect key="frame" x="200" y="111" width="200" height="200"/>
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="7KS-7y-SS6"/>
+                                    <constraint firstAttribute="height" constant="200" id="TpC-YL-5Ig"/>
+                                    <constraint firstAttribute="width" constant="200" id="XY0-pl-lTM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="iGb-BG-cUj" firstAttribute="top" secondItem="bUX-L0-Hz9" secondAttribute="bottom" constant="289" id="6hs-Uh-UrE"/>
-                            <constraint firstItem="bUX-L0-Hz9" firstAttribute="top" secondItem="9N5-Q6-gpW" secondAttribute="bottom" constant="51" id="NKR-qX-NIQ"/>
-                            <constraint firstAttribute="centerX" secondItem="9N5-Q6-gpW" secondAttribute="centerX" id="TQL-d9-EWW"/>
-                            <constraint firstItem="9N5-Q6-gpW" firstAttribute="top" secondItem="yDX-0u-eu3" secondAttribute="bottom" constant="20" id="c6K-Id-472"/>
-                            <constraint firstItem="bUX-L0-Hz9" firstAttribute="centerX" secondItem="9N5-Q6-gpW" secondAttribute="centerX" id="jtn-OQ-bvb"/>
+                            <constraint firstItem="9N5-Q6-gpW" firstAttribute="top" secondItem="yDX-0u-eu3" secondAttribute="bottom" constant="20" id="5bf-dv-I8t"/>
+                            <constraint firstItem="iGb-BG-cUj" firstAttribute="top" secondItem="bUX-L0-Hz9" secondAttribute="bottom" constant="200" id="f1Z-hv-Hsm"/>
+                            <constraint firstAttribute="centerX" secondItem="bUX-L0-Hz9" secondAttribute="centerX" id="h5G-ZQ-08L"/>
+                            <constraint firstAttribute="centerY" secondItem="bUX-L0-Hz9" secondAttribute="centerY" id="he0-9J-4d1"/>
+                            <constraint firstAttribute="centerX" secondItem="9N5-Q6-gpW" secondAttribute="centerX" constant="-0.5" id="quw-w7-CW2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YM4-G7-bBC"/>
